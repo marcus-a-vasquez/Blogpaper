@@ -2,6 +2,7 @@
 title: {{ replace .TranslationBaseName "-" " " | title }}
 subtitle: # Optional, will be displayed bellow the title of the page; remove this line to generate an automatic subtitle
 date: {{ .Date }}
+# publishDate: enter date to publish
 categories: # Optional, will be displayed above the title of the page
 - First category
 - Second category
